@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Whiteboard</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/codemirror.css" />
+    <link rel="stylesheet" href="css/codemirror.themes.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <base target="_self" />
+</head>
+<body>
+
+    <!--[if gte IE 9]> -->
+
+    <header class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Whiteboard</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <!--
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">File <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">New</a></li>
+                            <li><a href="#">Save</a></li>
+                            <li><a href="#">Save As...</a></li>
+                        </ul>
+                    </li>
+                    -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Syntax <b class="caret"></b></a>
+                        <ul id="mode-list" class="dropdown-menu">
+                            <!-- PLACEHOLDER -->
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Theme <b class="caret"></b></a>
+                        <ul id="theme-list" class="dropdown-menu">
+                            <!-- PLACEHOLDER -->
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span>English</span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="#">English</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Back to Top</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <article class="container">
+        <textarea id="content"></textarea>
+    </article>
+
+    <hr />
+
+    <footer class="container">
+        <p class="text-muted text-center">Whiteboard v0.1.0</p>
+        <br />
+    </footer>
+
+    <script src="js/socket.io/socket.io.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/codemirror.js"></script>
+    <script src="js/codemirror.modes.js"></script>
+    <script src="js/codemirror.loadmode.js"></script>
+    <script src="js/codemirror.overlay.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- <![endif]-->
+
+    <!--[if lt IE 9]>
+
+    <div style="padding: 20px;">
+
+    <h3>Sorry, your browser does not support HTML5, please use the following browsers instead:</h3>
+    <br />
+    <ul>
+    <li><h4>Google Chrome</h4></li>
+    <li><h4>Firefox 4 or above</h4></li>
+    <li><h4>Safari 4 or above</h4></li>
+    <li><h4>Internet Explorer 9 or above</h4></li>
+    <li><h4>Other browsers support HTML5</h4></li>
+    </ul>
+
+    <hr />
+
+    </div>
+
+    <![endif]-->
+
+</body>
+</html>
