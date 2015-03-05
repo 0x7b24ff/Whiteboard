@@ -1,5 +1,8 @@
 // server.js
 //
+// Copyright (c) 2009-2015, DJ-NotYet <dj.notyet@gmail.com>
+// Licensed under the MIT License
+
 var fs = require('fs'),
     path = require('path'),
     url = require('url')

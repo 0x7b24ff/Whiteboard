@@ -1,4 +1,7 @@
 // app.js
+//
+// Copyright (c) 2009-2015, DJ-NotYet <dj.notyet@gmail.com>
+// Licensed under the MIT License
 
 (function () {
 
